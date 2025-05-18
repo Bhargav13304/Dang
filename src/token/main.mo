@@ -5,7 +5,7 @@ import Iter "mo:base/Iter";
 
 actor Token {
 
-  let owner : Principal = Principal.fromText("y5g3l-2likp-uowr2-2nkie-5hfax-sq3sq-3biaz-ixjz4-tzt6l-ckevy-oqe");
+  let owner : Principal = Principal.fromText("dfx identity get-principal");
   let totalSupply : Nat = 1000000000000000;
   let symbol : Text = "DANG";
 
