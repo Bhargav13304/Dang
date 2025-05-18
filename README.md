@@ -4,7 +4,7 @@
 
 DANG is a fungible token built on the Internet Computer blockchain, accessible and manageable through the DSURV web application. Inspired by platforms like Curve Finance, DSURV allows users to create, acquire, and manage their own DANG crypto tokens. Users can perform a variety of operations, including purchasing DANG tokens, receiving tokens, checking their token balance using their unique Principal ID, and transferring tokens to other users via their Canister ID or Principal ID.
 
-Authentication is a key aspect of the DSURV platform. Users secure their accounts and authorize transactions using their Internet Identity. This involves a verification step, typically through a PIN or fingerprint, facilitated by `identity.ic0.app` (using `identityProvider: "https://identity.ic0.app/#authorize"`). Once authenticated via the Dfinity client auth, users are redirected to the DSURV website where they can access all the token functionalities.
+Authentication is a key aspect of the DSURV platform. Users secure their accounts and authorize transactions using their Internet Identity. This involves a verification step, typically through a PIN or fingerprint, facilitated by `identity.ic0.app`. Once authenticated via the Dfinity client auth, users are redirected to the DSURV website where they can access all the token functionalities.
 
 This project aims to provide a seamless and secure experience for interacting with custom fungible tokens on the Internet Computer, showcasing the power and flexibility of the IC ecosystem.
 
