@@ -3,4 +3,5 @@ service : {
   getSymbol: () -> (text) query;
   payOut: () -> (text);
   transfer: (principal, nat) -> (text);
+getListedNFTPrice: (principal) -> (nat) query;
 }
