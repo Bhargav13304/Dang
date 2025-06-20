@@ -4,4 +4,5 @@ export interface _SERVICE {
   'getSymbol' : () => Promise<string>,
   'payOut' : () => Promise<string>,
   'transfer' : (arg_0: Principal, arg_1: bigint) => Promise<string>,
+  'getListedNFTPrice': (arg_0: Principal) => Promise<bigint>,
 }
